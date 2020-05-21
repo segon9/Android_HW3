@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".activity.JoinActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="133dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="133dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/sopt_logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="회원가입"
+        android:textSize="24sp"
+        android:textColor="@color/oursopt_blue"
+        android:lineSpacingExtra="3sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/new_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:hint="아이디"
+        android:ems="10"
+        android:paddingLeft="16dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/round_et_gray"
+        android:fontFamily="@font/ko_pub_dotum_bold"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="8sp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="비밀번호"
+        android:ems="10"
+        android:paddingLeft="16dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/round_et_gray"
+        android:fontFamily="@font/ko_pub_dotum_bold"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="8sp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/check_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="비밀번호확인"
+        android:ems="10"
+        android:paddingLeft="16dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/round_et_gray"
+        android:fontFamily="@font/ko_pub_dotum_bold"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="8sp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="GitHub 닉네임"
+        android:ems="10"
+        android:paddingLeft="16dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/round_et_gray"
+        android:fontFamily="@font/ko_pub_dotum_bold"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="8sp"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/button_round"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:lineSpacingExtra="9sp"
+        android:fontFamily="@font/ko_pub_dotum_bold"
+        android:text="회원가입" />
+</LinearLayout>
