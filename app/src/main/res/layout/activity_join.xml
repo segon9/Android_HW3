@@ -33,7 +33,7 @@
         android:id="@+id/new_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="20dp"
         android:hint="아이디"
         android:ems="10"
         android:paddingLeft="16dp"
@@ -97,12 +97,46 @@
         android:lineSpacingExtra="8sp"
         android:inputType="textPersonName" />
 
+    <EditText
+        android:id="@+id/new_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="이메일"
+        android:ems="10"
+        android:paddingLeft="16dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/round_et_gray"
+        android:fontFamily="@font/ko_pub_dotum_bold"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="8sp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="핸드폰 번호"
+        android:ems="10"
+        android:paddingLeft="16dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/round_et_gray"
+        android:fontFamily="@font/ko_pub_dotum_bold"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="8sp"
+        android:inputType="phone" />
+
 
     <Button
         android:id="@+id/btn_join"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/button_round"
         android:textSize="16sp"
         android:textColor="#ffffff"

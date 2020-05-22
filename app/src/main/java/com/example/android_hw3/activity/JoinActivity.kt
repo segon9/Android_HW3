@@ -31,9 +31,9 @@ class JoinActivity : AppCompatActivity() {
                     RequestJoin(
                         id = new_id.text.toString(),
                         password = new_pwd.text.toString(),
-                        name = name.text.toString()
-//                        email = new_email.text.toString(),
-//                        phone = phone_num.text.toString()
+                        name = name.text.toString(),
+                        email = new_email.text.toString(),
+                        phone = phone_num.text.toString()
                     )
                 ).enqueue(object : Callback<ResponseJoin>{
                     override fun onFailure(call: Call<ResponseJoin>, t: Throwable) {
